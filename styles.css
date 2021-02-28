@@ -1,5 +1,7 @@
 body {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'IBM Plex Sans', sans-serif;
+    background-color: rgb(29, 35, 51);
+    color: white;
 }
 
 container {
