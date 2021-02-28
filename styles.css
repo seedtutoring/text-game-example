@@ -1,5 +1,5 @@
-#repl {
-    width: 60%;
+body {
+    font-family: 'Courier New', Courier, monospace;
 }
 
 container {
@@ -9,6 +9,16 @@ container {
     justify-content: center;
 }
 
-body {
-    font-family: 'Courier New', Courier, monospace;
+.wrapper {
+    position: relative;
+    width: 60%;
+}
+
+.blocker {
+    position: absolute;
+    width: 150px;
+    height: 47px;
+    background-color: rgb(246, 246, 246);
+    top: 0px;
+    right: 0px;
 }
